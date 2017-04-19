@@ -1,31 +1,30 @@
 body {
-	background: url(StockSnap_8AYJY0K62O.jpg);
+	background: url(StockSnap_8AYJY0K62O.jpeg);
 }
 	h1, h2, h3, p, ul {
-	color: #044447;
+	color: #000000;
 	font-family: "Avenir Book", monospace;
 	font-weight: normal;
 }
 	h1 {
 	text-align: left;
-	font-size: 20px;
+	font-size: 24px;
 	font-style: normal;
 }
 	h2 {
 	font-weight: bold;
 }
  	#slogan {
-	
 	text-transform: lowercase;
-	font-size: 18px
+	font-size: 20px
 	text-align: center;	
 }
 	h3 { 
-	font-size: 14px;
+	font-size: 18px;
 	text-align: center;
 	}
 	p {
-		font-size: 12px;
+		font-size: 14px;
 		font-style: italic;
 		text-align: left;
 	}
