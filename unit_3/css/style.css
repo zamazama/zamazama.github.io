@@ -33,6 +33,7 @@ ul {
 	background-size:cover;
 	background-repeat: no-repeat;
 	background-position: bottom;
-	height:85vh;
-	padding: 5em;
+	height:90vh;
+	padding: 4em;
+	padding-left: 1em;
 }
