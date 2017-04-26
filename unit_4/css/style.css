@@ -1,0 +1,41 @@
+* {margin:0;padding:0;box-sizing:border-box;}
+img {
+	width:300px;
+}
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+body {
+	color:#333;
+	font-family: "Avenir Book", monospace;
+}
+h1, h3 {
+	font-weight: normal;
+}
+h1 {
+	font-size: 24px;
+}
+#name {
+	font-family: 'Poiret One', cursive;
+}
+h2 {
+	text-transform: lowercase;
+    font-size: 34px;
+}
+h3 {
+	font-size: 22px;
+}
+p {
+	font-size: 18px;
+	font-style: italic;
+}
+ul {
+	list-style-type: none;
+}
+#intro {
+	background:url(../images/StockSnap_8AYJY0K62O.jpeg);
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	height:90vh;
+	padding: 4em;
+	padding-left: 1em;
+}
