@@ -2,6 +2,7 @@
 img {
 	width:300px;
 }
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
 body {
 	color:#333;
 	font-family: "Avenir Book", monospace;
@@ -12,10 +13,11 @@ h1, h3 {
 h1 {
 	font-size: 24px;
 }
+#name {
+	font-family: 'Poiret One', cursive;
+}
 h2 {
 	text-transform: lowercase;
-}
-#slogan {
     font-size: 34px;
 }
 h3 {
