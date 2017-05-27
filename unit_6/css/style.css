@@ -8,9 +8,8 @@ body {
 	font-family: "Avenir Book", monospace;
 }
 header {
-	background-color: #FFED74;
-	border: 1px black solid;
-	padding: 20px;
+	background-color: #ffffff;
+	padding: 03%;
 }
 h1, h3 {
 	font-weight: normal;
@@ -35,6 +34,23 @@ p {
 ul {
 	list-style-type: none;
 }
+nav {
+	font-size:1.1em;
+}
+nav a {
+	color: #333;
+	display: block;
+	text-decoration: none;
+	padding: .05%;
+	margin: 0;
+	width: 10%;
+	display: inline-block;
+	float: right;
+	text-align: center;
+}
+a:hover {
+	background-color: #aaaaaa;
+}
 #intro {
 	background:url(../images/StockSnap_8AYJY0K62O.jpeg);
 	background-size:cover;
@@ -44,9 +60,11 @@ ul {
 	padding: 4em;
 	padding-left: 1em;
 }
+#intro a {
+	text-decoration: none;
+}
 #recent_finds {
 	background-color: #FFB7CF;
-	border: 1px black solid;
 	padding: 20px;
 }
 .clearfix: after {
@@ -57,17 +75,18 @@ ul {
 	clear: both;
 	height: o;
 }
-#left {
+#wrapper {
 	background-color: #E582A2;
-	border: 1px black solid;
 	padding: 20px;
-	float: left;
 	width: 45%;
 	margin: 20px;
 }
+#wrapper a {
+	text-decoration: none;
+	text-align: center;
+}
 #right {
 	background-color: #E55B88;
-	border: 1px black solid;
 	padding: 20px;
 	float: right;
 	width: 45%;
@@ -75,17 +94,22 @@ ul {
 }
 #articles {
 	background-color: #E89C6C;
-	border: 1px black solid;
 }
-#wrapper {
+#latest {
 	width: 560 px;
 	padding: 20px;
 	margin: 20px;
 	float: left;
 }
+.column {
+	float: left;
+	width: 260px;
+	height: 300px;
+	padding: 20px;
+	margin: o;
+}
 #collection {
 	background-color: #FFE2B8;
-	border: 1px black solid;
 }
 #footer {
 	background-color: #FF957E;
@@ -93,5 +117,4 @@ ul {
 }
 #about {
 	background-color: #FFE2B8;
-	border: 1px black solid;
 }
